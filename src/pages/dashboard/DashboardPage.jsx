@@ -8,21 +8,25 @@ function DashboardPage() {
       <div className="dashboard-left">
         <Card title="Thông báo">
           <ul className="list">
-            <li className="list-item">
-              <div className="list-item-meta">
+            <li className="list-item notice-row">
+              <div className="notice-col-left">
                 <span className="list-item-label">Từ Nhà cung cấp</span>
               </div>
-              <p className="list-item-text">
-                Điều chỉnh thời gian giao hàng (NCC Sữa tươi)...
-              </p>
+              <div className="notice-col-right">
+                <p className="list-item-text">
+                  Điều chỉnh thời gian giao hàng (NCC Sữa tươi)...
+                </p>
+              </div>
             </li>
-            <li className="list-item">
-              <div className="list-item-meta">
+            <li className="list-item notice-row">
+              <div className="notice-col-left">
                 <span className="list-item-label">Từ Quản lý</span>
               </div>
-              <p className="list-item-text">
-                Thay đổi hạn sử dụng với các loại hạt đã mở gói...
-              </p>
+              <div className="notice-col-right">
+                <p className="list-item-text">
+                  Thay đổi hạn sử dụng với các loại hạt đã mở gói...
+                </p>
+              </div>
             </li>
           </ul>
         </Card>
