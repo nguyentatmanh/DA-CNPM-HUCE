@@ -395,6 +395,34 @@ body {
   margin: 0;
 }
 
+.notice-row {
+  align-items: stretch;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.notice-col-left {
+  min-width: 140px;
+  padding-right: 12px;
+  border-right: 1px solid #eef0f4;
+  display: flex;
+  align-items: center;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.notice-col-right {
+  flex: 1;
+  border: 1px solid var(--border-soft);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: #ffffff;
+}
+
+.notice-col-right .list-item-text {
+  color: var(--text-main);
+}
+
 .timeline {
   list-style: none;
   padding: 0;
