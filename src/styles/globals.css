@@ -81,36 +81,32 @@ body {
 .app-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   text-decoration: none;
   color: inherit;
 }
 
-.app-logo-mark {
-  width: 32px;
-  height: 32px;
-  border-radius: 999px;
-  background: var(--primary-soft);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  color: var(--primary);
+.app-logo-img {
+  width: 80px;
+  height: 20px;
+  object-fit: contain;
 }
 
 .app-logo-text {
   display: flex;
   flex-direction: column;
+  line-height: 1.2;
 }
 
 .app-logo-title {
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #0066a4;
 }
 
 .app-logo-subtitle {
-  font-size: 12px;
-  color: var(--text-muted);
+  font-size: 14px;
+  color: #4f677a;
 }
 
 .app-header-center {
